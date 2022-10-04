@@ -1,0 +1,11 @@
+d=open('user_data.txt','w')
+a=input('Enter Name')
+b=input('Phone Number')
+c=input('Email Id')
+# d.write(a)
+# d.write('\n')
+# d.write(b)
+# d.write('\n')
+# d.write(c)
+
+d.write(a+'\n'+b+'\n'+c)
